@@ -8,6 +8,24 @@
         "header__shadow": {
           "content": "Shadow"
         },
+        "animation_type" : {
+          "label" : "Text Alignment",
+          "option__1" : {
+            "label" : "Top"
+          },
+          "option__2" : {
+            "label" : "Bottom"
+          }
+        },
+        "type" : {
+          "label" : "Type",
+          "option__1" : {
+            "label" : "Primary"
+          },
+          "option__2" : {
+            "label" : "Secondary"
+          }
+        },
         "blur": {
           "label": "Blur"
         },
@@ -505,6 +523,78 @@
       },
       "presets": {
         "name": "Announcement bar"
+      }
+    },
+    "hero" :{
+      "name" : "Hero",
+      "settings" : {
+          "header_style" :  {
+              "content" : "Style"
+          },
+          "enable_animation" : {
+            "label" : "Enable Animation"
+          },
+          "color" : {
+            "label" : "Color"
+          },
+          "header__image" : {
+            "label" : "Image"
+          },
+          "image" : {
+            "label" : "Image"
+          },
+          "mobile_image" : {
+            "label" : "Mobile Image",
+            "info" : "Optional. If left blank, the desktop image will be used for both desktop and mobile."
+          },
+          "header__content" : {
+            "content" : "Content"
+          },
+          "heading" :  {
+            "label" : "Heading"
+          },
+          "subheading" : {
+            "label" : "Subheading"
+          },
+          "header__button_1" : {
+            "label" : "Button 1"
+          },
+          "button_1_text" : {
+            "label" : "Button 1 Text"
+          },
+          "button_1_link" : {
+            "label" : "Button 1 Link"
+          },
+          "button_1_type" : {
+            "label" : "Button 1 Type",
+            "option__1" : {
+              "label" : "Primary"
+            },
+            "option__2" : {
+              "label" : "Secondary"
+            }
+          },
+          "header__button_2" : {
+            "label" : "Button 2"
+          },
+          "button_2_text" : {
+            "label" : "Button 2 Text"
+          },
+          "button_2_link" : {
+            "label" : "Button 2 Link"
+          },
+          "button_2_type" : {
+            "label" : "Button 2 Type",
+            "option__1" : {
+              "label" : "Primary"
+            },
+            "option__2" : {
+              "label" : "Secondary"
+            }
+          }
+      },
+      "presets" : {
+        "name" : "hero" 
       }
     },
     "apps": {
